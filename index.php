@@ -17,6 +17,7 @@
         <picture>
         </picture>
     </header>
+    <!-- Websites basicos -->
     <div class="section">
         <div class="title-container">
             <h3>Website Basico</h3>
@@ -161,6 +162,7 @@
         </div>
     </div><!-- .section -->
 
+    <!-- Websites Premium -->
     <div class="section">
         <div class="title-container">
             <h3>Website Premium</h3>
@@ -345,6 +347,140 @@
                 </div><!-- .tercio -->
             </div><!-- row -->
         </div>
+    </div><!-- .section -->
+
+    <!-- Tienda en linea -->
+    <div class="section">
+        <div class="title-container">
+            <h3>Tienda en linea</h3>
+        </div>
+        <div class="content section-body">
+            <picture>
+                <source srcset="build/img/shop/shop.webp" type="image/webp">
+                <source srcset="build/img/shop/shop.png" type="image/png">
+                <img src="build/img/shop/shop.png" alt="Websites Premium">
+            </picture>
+            <div class="row margin-neg-top-10">
+                <h4 class="title-card">Beneficios de tener tienda en línea</h4>
+                <div class="card-beneficios">
+                    <div class="beneficios tercios text-center">
+                        <picture>
+                            <source srcset="build/img/shop/1149305shop.webp" type="image/webp">
+                            <source srcset="build/img/shop/1149305shop.png" type="image/png">
+                            <img src="build/img/shop/1149305shop.png" alt="Websites Premium">
+                        </picture>
+                        <p class="slag">Facilidad de vender</p>
+                        <p class="description">
+                            Cualquier persona con acceso a internet podrá ver lo que ofreces.
+                        </p>
+                    </div><!-- .beneficios -->
+                    <div class="beneficios tercios text-center">
+                        <picture>
+                            <source srcset="build/img/shop/3094824shop.webp" type="image/webp">
+                            <source srcset="build/img/shop/3094824shop.png" type="image/png">
+                            <img src="build/img/shop/3094824shop.png" alt="Websites Premium">
+                        </picture>
+                        <p class="slag">Interacción con tu cliente</p>
+                        <p class="description">
+                            Interactúa con tu público para atraer a un gran número de clientes.
+                        </p>
+                    </div><!-- beneficios -->
+                    <div class="beneficios tercios text-center">
+                        <picture>
+                            <source srcset="build/img/shop/4634670shop.webp" type="image/webp">
+                            <source srcset="build/img/shop/4634670shop.png" type="image/png">
+                            <img src="build/img/shop/4634670shop.png" alt="Websites Premium">
+                        </picture>
+                        <p class="slag">Tienda abierta 24/7</p>
+                        <p class="description">
+                            Disposición los 365 días del año.
+                        </p>
+                    </div><!-- beneficios -->
+                    <div class="beneficios flex medios">
+                        <picture>
+                            <source srcset="build/img/dominio-ico.webp" type="image/webp">
+                            <source srcset="build/img/dominio-ico.png" type="image/png">
+                            <img src="build/img/dominio-ico.png" alt="Websites Premium">
+                        </picture>
+                        <p class="slag">Nombre de tu negocio como tu dominio .com</p>
+                    </div><!-- beneficios -->
+                    <div class="beneficios flex medios">
+                        <picture>
+                            <source srcset="build/img/google-ico.webp" type="image/webp">
+                            <source srcset="build/img/google-ico.png" type="image/png">
+                            <img src="build/img/google-ico.png" alt="Websites Premium">
+                        </picture>
+                        <p class="slag">Aparece en las búsquedas de Google</p>
+                    </div><!-- beneficios -->
+                </div> <!-- .card -->
+            </div><!-- row -->
+
+            <div class="row flex-row">
+                <div class="tercios">
+                    <div class="etiqueta">
+                        <h3>Tienda en linea</h3>
+                        <p>Código: BL 117</p>
+                        <p>$ 1500</p>
+                    </div>
+                    <h4 class="mant-mensual">Costo adicional por mantenimiento mensual</h4>
+                    <p>Mantenimiento prioritario, protección de virus, cambios y actualizaciones.</p>
+                    <p>* Precio sujeto a cambios</p>
+                </div><!-- .tercio -->
+
+                <div class="dos-tercios">
+                    <h4 class="title-card">Website Premium más</h4>
+                    <div class="card-caracteristicas">
+                        <div class="caracteristicas">
+                            <picture>
+                                <source srcset="build/img/shop/3712232shop.webp" type="image/webp">
+                                <source srcset="build/img/shop/3712232shop.png" type="image/png">
+                                <img src="build/img/shop/3712232shop.png" alt="Websites Premium">
+                            </picture>
+                            <p>Opciones de productos</p>
+                        </div><!-- .caracteristicas -->
+                        <div class="caracteristicas">
+                            <picture>
+                                <source srcset="build/img/shop/1831669shop.webp" type="image/webp">
+                                <source srcset="build/img/shop/1831669shop.png" type="image/png">
+                                <img src="build/img/shop/1831669shop.png" alt="Websites Premium">
+                            </picture>
+                            <p>Promociones y Ofertas</p>
+                        </div><!-- .caracteristicas -->
+                        <div class="caracteristicas">
+                            <picture>
+                                <source srcset="build/img/shop/2857300shop.webp" type="image/webp">
+                                <source srcset="build/img/shop/2857300shop.png" type="image/png">
+                                <img src="build/img/shop/2857300shop.png" alt="Websites Premium">
+                            </picture>
+                            <p>Panel de tienda</p>
+                        </div><!-- .caracteristicas -->
+                        <div class="caracteristicas">
+                            <picture>
+                                <source srcset="build/img/shop/3655346shop.webp" type="image/webp">
+                                <source srcset="build/img/shop/3655346shop.png" type="image/png">
+                                <img src="build/img/shop/3655346shop.png" alt="Websites Premium">
+                            </picture>
+                            <p>Gift Cards</p>
+                        </div><!-- .caracteristicas -->
+                        <div class="caracteristicas">
+                            <picture>
+                                <source srcset="build/img/shop/679701shop.webp" type="image/webp">
+                                <source srcset="build/img/shop/679701shop.png" type="image/png">
+                                <img src="build/img/shop/679701shop.png" alt="Websites Premium">
+                            </picture>
+                            <p>Productos</p>
+                        </div><!-- .caracteristicas -->
+                        <picture>
+                            <source srcset="build/img/shop/Productosshop.webp" type="image/webp">
+                            <source srcset="build/img/shop/Productosshop.png" type="image/png">
+                            <img src="build/img/shop/Productosshop.png" alt="Websites Premium">
+                        </picture>
+
+                    </div><!-- .card-caracteristicas -->
+
+                </div><!-- .dos-tercios -->
+            </div><!-- row -->
+        </div><!-- .content -->
     </div><!-- .section -->
 
     <script src="build/js/modernizr.js"></script>
