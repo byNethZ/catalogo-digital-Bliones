@@ -35,7 +35,7 @@
                         <picture>
                             <source srcset="build/img/wb_basic/wbb_1.webp" type="image/webp">
                             <source srcset="build/img/wb_basic/wbb_1.png" type="image/png">
-                            <img src="build/img/wb_basic/wbb_1.png" alt="Websites Básicos">
+                            <img class="img-height-10rem" src="build/img/wb_basic/wbb_1.png" alt="Websites Básicos">
                         </picture>
                         <p class="slag">Aumenta el alcance de tu negocio</p>
                         <p class="description">
@@ -46,7 +46,7 @@
                         <picture>
                             <source srcset="build/img/wb_basic/wbb_2.webp" type="image/webp">
                             <source srcset="build/img/wb_basic/wbb_2.png" type="image/png">
-                            <img src="build/img/wb_basic/wbb_2.png" alt="Websites Básicos">
+                            <img class="img-height-10rem" src="build/img/wb_basic/wbb_2.png" alt="Websites Básicos">
                         </picture>
                         <p class="slag">Mejora la imagen de tu marca</p>
                         <p class="description">
@@ -57,7 +57,7 @@
                         <picture>
                             <source srcset="build/img/wb_basic/wbb_3.webp" type="image/webp">
                             <source srcset="build/img/wb_basic/wbb_3.png" type="image/png">
-                            <img src="build/img/wb_basic/wbb_3.png" alt="Websites Básicos">
+                            <img class="img-height-10rem" src="build/img/wb_basic/wbb_3.png" alt="Websites Básicos">
                         </picture>
                         <p class="slag">Aumenta tus ventas</p>
                         <p class="description">
@@ -180,7 +180,7 @@
                         <picture>
                             <source srcset="build/img/wb_prem/wbp_2.webp" type="image/webp">
                             <source srcset="build/img/wb_prem/wbp_2.png" type="image/png">
-                            <img src="build/img/wb_prem/wbp_2.png" alt="Websites Premium">
+                            <img class="img-height-10rem" src="build/img/wb_prem/wbp_2.png" alt="Websites Premium">
                         </picture>
                         <p class="slag">Extremadamente versátil</p>
                         <p class="description">
@@ -191,7 +191,7 @@
                         <picture>
                             <source srcset="build/img/wb_prem/860322wbp_.webp" type="image/webp">
                             <source srcset="build/img/wb_prem/860322wbp_.png" type="image/png">
-                            <img src="build/img/wb_prem/860322wbp_.png" alt="Websites Premium">
+                            <img class="img-height-10rem" src="build/img/wb_prem/860322wbp_.png" alt="Websites Premium">
                         </picture>
                         <p class="slag">Website Dinámico</p>
                         <p class="description">
@@ -202,7 +202,7 @@
                         <picture>
                             <source srcset="build/img/wb_prem/wbp_3.webp" type="image/webp">
                             <source srcset="build/img/wb_prem/wbp_3.png" type="image/png">
-                            <img src="build/img/wb_prem/wbp_3.png" alt="Websites Premium">
+                            <img class="img-height-10rem" src="build/img/wb_prem/wbp_3.png" alt="Websites Premium">
                         </picture>
                         <p class="slag">Interactividad</p>
                         <p class="description">
@@ -367,7 +367,7 @@
                         <picture>
                             <source srcset="build/img/shop/1149305shop.webp" type="image/webp">
                             <source srcset="build/img/shop/1149305shop.png" type="image/png">
-                            <img src="build/img/shop/1149305shop.png" alt="Websites Premium">
+                            <img class="img-height-10rem" src="build/img/shop/1149305shop.png" alt="Websites Premium">
                         </picture>
                         <p class="slag">Facilidad de vender</p>
                         <p class="description">
@@ -378,7 +378,7 @@
                         <picture>
                             <source srcset="build/img/shop/3094824shop.webp" type="image/webp">
                             <source srcset="build/img/shop/3094824shop.png" type="image/png">
-                            <img src="build/img/shop/3094824shop.png" alt="Websites Premium">
+                            <img class="img-height-10rem" src="build/img/shop/3094824shop.png" alt="Websites Premium">
                         </picture>
                         <p class="slag">Interacción con tu cliente</p>
                         <p class="description">
@@ -389,7 +389,7 @@
                         <picture>
                             <source srcset="build/img/shop/4634670shop.webp" type="image/webp">
                             <source srcset="build/img/shop/4634670shop.png" type="image/png">
-                            <img src="build/img/shop/4634670shop.png" alt="Websites Premium">
+                            <img class="img-height-10rem" src="build/img/shop/4634670shop.png" alt="Websites Premium">
                         </picture>
                         <p class="slag">Tienda abierta 24/7</p>
                         <p class="description">
@@ -481,6 +481,288 @@
                 </div><!-- .dos-tercios -->
             </div><!-- row -->
         </div><!-- .content -->
+    </div><!-- .section -->
+
+    <div class="section">
+        <div class="title-container">
+            <p>Redes sociales</p>
+            <h3>Facebook</h3>
+        </div>
+        <div class="content section-body">
+            <div class="row row-red-social">
+                <div class="medios card-red">
+                    <picture>
+                        <source srcset="build/img/facebook/Capa_4.webp" type="image/webp">
+                        <source srcset="build/img/facebook/Capa_4.png" type="image/png">
+                        <img src="build/img/facebook/Capa_4.png" alt="Websites Premium">
+                    </picture>
+                    <div class="card-red-text">
+                        <h4>Facebook es el rey de las redes sociales</h4>
+                        <p>Plataforma social líder, con el <span>60,6%</span> de los usuarios de Internet</p>
+                    </div>
+                </div><!-- .medios -->
+                <div class="medios card-red">
+                    <picture>
+                        <source srcset="build/img/facebook/2697432.webp" type="image/webp">
+                        <source srcset="build/img/facebook/2697432.png" type="image/png">
+                        <img src="build/img/facebook/2697432.png" alt="Websites Premium">
+                    </picture>
+                    <div class="card-red-text">
+                        <h4>Los negocios tienen página en Facebook</h4>
+                        <p>Facebook tiene más de <span>80 millones</span> de páginas de pequeños negocios</p>
+                    </div>
+                </div><!-- .medios -->
+            </div><!-- .row -->
+            <div class="row flex-row">
+                <div class="medios">
+                    <picture>
+                        <source srcset="build/img/facebook/phone_face.webp" type="image/webp">
+                        <source srcset="build/img/facebook/phone_face.png" type="image/png">
+                        <img class="img-medio" src="build/img/facebook/phone_face.png" alt="Websites Premium">
+                    </picture>
+                </div>
+
+                <div class="medios">
+                    <div class="card-paquetes-container">
+                        <div class="card-paquetes">
+                            <div class="title-paquetes">
+                                <picture>
+                                    <source srcset="build/img/facebook/flag.webp" type="image/webp">
+                                    <source srcset="build/img/facebook/flag.png" type="image/png">
+                                    <img src="build/img/facebook/flag.png" alt="Websites Premium">
+                                </picture>
+                                <h4>Paquete Básico</h4>
+                            </div>
+                            <ul>
+                                <li>Características</li>
+                                <li>Creación o actualización de fanpage</li>
+                                <li>2 publicaciones por semana</li>
+                                <li>- Imagenes</li>
+                                <li>- Texto</li>
+                                <li>Sesión de fotos trimestral</li>
+                                <li>Publicidad incluida</li>
+                                <li>Informes y análisis trimestral</li>
+                                <li>$ 120</li>
+                            </ul>
+                        </div><!-- .card-paquetes -->
+                    </div>
+
+                    <div class="card-paquetes-container">
+                        <div class="card-paquetes">
+                            <div class="title-paquetes">
+                                <picture>
+                                    <source srcset="build/img/facebook/banner.webp" type="image/webp">
+                                    <source srcset="build/img/facebook/banner.png" type="image/png">
+                                    <img src="build/img/facebook/banner.png" alt="Websites Premium">
+                                </picture>
+                                <h4>Paquete Estándar</h4>
+                            </div>
+                            <ul>
+                                <li>Características</li>
+                                <li>Creación o actualización de fanpage</li>
+                                <li>4 publicaciones por semana</li>
+                                <li>- Imagenes</li>
+                                <li>- Texto</li>
+                                <li>Una historia por semana</li>
+                                <li>Sesión de fotos mensual</li>
+                                <li>Publicidad incluida</li>
+                                <li>Informes y análisis mensual</li>
+                                <li>$ 240</li>
+                            </ul>
+                        </div><!-- .card-paquetes -->
+                    </div>
+
+                    <div class="card-paquetes-container">
+                        <div class="card-paquetes">
+                            <div class="title-paquetes">
+                                <picture>
+                                    <source srcset="build/img/facebook/diamond.webp" type="image/webp">
+                                    <source srcset="build/img/facebook/diamond.png" type="image/png">
+                                    <img src="build/img/facebook/diamond.png" alt="Websites Premium">
+                                </picture>
+                                <h4>Paquete Premium</h4>
+                            </div>
+                            <ul>
+                                <li>Características</li>
+                                <li>Creación o actualización de fanpage</li>
+                                <li>6 publicaciones por semana</li>
+                                <li>- Imagenes</li>
+                                <li>- Texto</li>
+                                <li>- Videos/Gifs</li>
+                                <li>Tres historias por semana</li>
+                                <li>Sesión de fotos mensual</li>
+                                <li>Publicidad incluida</li>
+                                <li>Informes y análisis mensual</li>
+                                <li>$ 510</li>
+                            </ul>
+                        </div><!-- .card-paquetes -->
+                    </div><!-- .card-paquetes-container -->
+                </div><!-- .medios -->
+            </div><!-- .row -->
+
+        </div><!-- .content -->
+    </div><!-- .section -->
+
+    <div class="section">
+        <div class="title-container">
+            <p>Redes sociales</p>
+            <h3>Instagram</h3>
+        </div>
+        <div class="content section-body">
+            <div class="row row-red-social">
+                <div class="medios card-red">
+                    <picture>
+                        <source srcset="build/img/insta/Capa_2.webp" type="image/webp">
+                        <source srcset="build/img/insta/Capa_2.png" type="image/png">
+                        <img src="build/img/insta/Capa_2.png" alt="Websites Premium">
+                    </picture>
+                    <div class="card-red-text">
+                        <h4>Los negocios usan Instagram</h4>
+                        <p>El <span>71%</span> de los negocios de EEUU utilizan Instagram</p>
+                    </div>
+                </div><!-- .medios -->
+                <div class="medios card-red">
+                    <picture>
+                        <source srcset="build/img/insta/2956395.webp" type="image/webp">
+                        <source srcset="build/img/insta/2956395.png" type="image/png">
+                        <img src="build/img/insta/2956395.png" alt="Websites Premium">
+                    </picture>
+                    <div class="card-red-text">
+                        <h4>Instagram tiene fuerte influencia</h4>
+                        <p>Instagram ayuda al <span>80%</span> de sus usuarios a decidir que productos o servicios comprar</p>
+                    </div>
+                </div><!-- .medios -->
+            </div><!-- .row -->
+            <div class="row flex-row">
+                <div class="medios">
+                    <picture>
+                        <source srcset="build/img/insta/phone_insta.webp" type="image/webp">
+                        <source srcset="build/img/insta/phone_insta.png" type="image/png">
+                        <img class="img-medio" src="build/img/insta/phone_insta.png" alt="Websites Premium">
+                    </picture>
+                </div>
+
+                <div class="medios">
+                    <div class="card-paquetes-container">
+                        <div class="card-paquetes">
+                            <div class="title-paquetes">
+                                <picture>
+                                    <source srcset="build/img/insta/flag.webp" type="image/webp">
+                                    <source srcset="build/img/insta/flag.png" type="image/png">
+                                    <img src="build/img/insta/flag.png" alt="Websites Premium">
+                                </picture>
+                                <h4>Paquete Básico</h4>
+                            </div>
+                            <ul>
+                                <li>Características</li>
+                                <li>Creación o actualización de perfil</li>
+                                <li>2 publicaciones por semana</li>
+                                <li>- Imagenes</li>
+                                <li>- Texto</li>
+                                <li>Sesión de fotos trimestral</li>
+                                <li>Publicidad incluida</li>
+                                <li>Informes y análisis trimestral</li>
+                                <li>$ 80</li>
+                            </ul>
+                        </div><!-- .card-paquetes -->
+                    </div>
+
+                    <div class="card-paquetes-container">
+                        <div class="card-paquetes">
+                            <div class="title-paquetes">
+                                <picture>
+                                    <source srcset="build/img/insta/banner.webp" type="image/webp">
+                                    <source srcset="build/img/insta/banner.png" type="image/png">
+                                    <img src="build/img/insta/banner.png" alt="Websites Premium">
+                                </picture>
+                                <h4>Paquete Estándar</h4>
+                            </div>
+                            <ul>
+                                <li>Características</li>
+                                <li>Creación o actualización de perfil</li>
+                                <li>4 publicaciones por semana</li>
+                                <li>- Imagenes</li>
+                                <li>- Texto</li>
+                                <li>Una historia por semana</li>
+                                <li>Sesión de fotos mensual</li>
+                                <li>Publicidad incluida</li>
+                                <li>Informes y análisis mensual</li>
+                                <li>$ 160</li>
+                            </ul>
+                        </div><!-- .card-paquetes -->
+                    </div>
+
+                    <div class="card-paquetes-container">
+                        <div class="card-paquetes">
+                            <div class="title-paquetes">
+                                <picture>
+                                    <source srcset="build/img/insta/diamond.webp" type="image/webp">
+                                    <source srcset="build/img/insta/diamond.png" type="image/png">
+                                    <img src="build/img/insta/diamond.png" alt="Websites Premium">
+                                </picture>
+                                <h4>Paquete Premium</h4>
+                            </div>
+                            <ul>
+                                <li>Características</li>
+                                <li>Creación o actualización de perfil</li>
+                                <li>6 publicaciones por semana</li>
+                                <li>- Imagenes</li>
+                                <li>- Texto</li>
+                                <li>- Videos/Gifs</li>
+                                <li>Tres historias por semana</li>
+                                <li>Sesión de fotos mensual</li>
+                                <li>Publicidad incluida</li>
+                                <li>Informes y análisis mensual</li>
+                                <li>$ 370</li>
+                            </ul>
+                        </div><!-- .card-paquetes -->
+                    </div><!-- .card-paquetes-container -->
+                </div><!-- .medios -->
+            </div><!-- row -->
+
+        </div><!-- .content -->
+    </div><!-- .section -->
+
+    <div class="section">
+        <div class="title-container">
+            <h3>Codigo QR</h3>
+        </div>
+        <div class="content section-body">
+            <div class="qr-card">
+                <div class="card-qr">
+                    <picture>
+                        <source srcset="build/img/qr/rapi.webp" type="image/webp">
+                        <source srcset="build/img/qr/rapi.png" type="image/png">
+                        <img src="build/img/qr/rapi.png" alt="Websites Premium">
+                    </picture>
+                    <h4>Rapidez</h4>
+                    <p>No tienes que buscar el enlace de tu página web o redes sociales. Simplemente necesitas escanear el código QR.</p>
+                </div><!-- .card-qr -->
+
+                <div class="card-qr">
+                    <picture>
+                        <source srcset="build/img/qr/versa.webp" type="image/webp">
+                        <source srcset="build/img/qr/versa.png" type="image/png">
+                        <img src="build/img/qr/versa.png" alt="Websites Premium">
+                    </picture>
+                    <h4>Versatilidad</h4>
+                    <p>Pueden ser integrados con una amplia gama de materiales de marketing para cualquier propósito, incluyendo material impreso.</p>
+                </div><!-- .card-qr -->
+
+                <div class="card-qr">
+                    <picture>
+                        <source srcset="build/img/qr/uso.webp" type="image/webp">
+                        <source srcset="build/img/qr/uso.png" type="image/png">
+                        <img src="build/img/qr/uso.png" alt="Websites Premium">
+                    </picture>
+                    <h4>Usabilidad</h4>
+                    <p>Comparte gran variedad de información como: teléfono, email, redes sociales, página web e incluso la contraseña del wifi de tu negocio.</p>
+                </div><!-- .card-qr -->
+
+            </div><!-- qr-card -->
+        </div><!-- .content -->
+
+
     </div><!-- .section -->
 
     <script src="build/js/modernizr.js"></script>
