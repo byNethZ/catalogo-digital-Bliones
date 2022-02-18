@@ -1,0 +1,1 @@
+function iniciarApp(n){}document.addEventListener("DOMContentLoaded",(function(){var n=document.getElementById("myModal");iniciarApp(bootstrap.Modal.getInstance(n))}));

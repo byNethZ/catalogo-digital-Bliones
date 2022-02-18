@@ -1,11 +1,11 @@
 <?php
-    $img='';
-    if($_GET['id'] == '3' || $_GET['id'] == '8') {
-        $img = 'call';
-        
-        }else{
-        $img = 'whatsapp';
-    }  
+include_once '../templates/dataid.php';
+$img = '';
+if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+    $img = 'call';
+} else {
+    $img = 'whatsapp';
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +17,8 @@
     <title>Catalogo Digital by Bliones</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="build/css/app.css">
+
+    <?php include_once './templates/googleanalitics.php'; ?>
 </head>
 
 <body>
@@ -28,12 +30,11 @@
         </div>
         <a class="boton-red boton-header" href="
                 <?php
-                    if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                        echo 'tel:' . $phone;
-                        
-                        }else{
-                        echo 'https://wa.me/' . $phone;
-                    }  
+                if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                    echo 'tel:' . $phone;
+                } else {
+                    echo 'https://wa.me/' . $phone;
+                }
                 ?>
 			" target="_blank">Contáctanos, nosotros te ayudamos</a>
         <!--         <picture>
@@ -43,18 +44,60 @@
         </picture> -->
     </header>
 
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-secc" data-bs-toggle="modal" data-bs-target="#myModal">
+        Secciones
+    </button>
+
+    <!-- Modal -->
+    <div class="modal" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Secciones del catálogo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav flex-column nav-secc">
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#website-basico">Websites Básicos</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#website-premium">Websites Premium</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#tienda-linea">Tienda en línea</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#facebook">Facebook</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#instagram">Instagram</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#codigo-qr">Código QR</a>
+                        </li>
+                        <li class="nav-item" data-bs-dismiss="modal">
+                            <a class="nav-link" href="#gmb">Google My Business</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Botones Menu -->
     <div class="botones-direcc">
         <div class="btn-izquierdo">
-            <a href="">Uniformes</a>
+            <a href="#">Uniformes</a>
         </div>
         <div class="btn-derecho">
-            <a href="">Menus</a>
+            <a href="#">Menus</a>
         </div>
     </div>
 
     <!-- Websites basicos -->
-    <div class="section">
+    <div class="section" id="website-basico">
         <div class="title-container">
             <h3>Website Basico</h3>
         </div>
@@ -273,35 +316,33 @@
 
         <a class="boton-verde" href="
 			<?php
-				if($_GET['id'] == '3' || $_GET['id'] == '8') {
-					echo 'tel:' . $phone;
-					
-					}else{
-					echo 'https://wa.me/' . $phone;
-				}  
-			?>
+            if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                echo 'tel:' . $phone;
+            } else {
+                echo 'https://wa.me/' . $phone;
+            }
+            ?>
 			" target="_blank">
-                <picture>
-                    <source srcset="build/img/<?php echo $img; ?>.webp" type="image/webp">
-                    <source srcset="build/img/<?php echo $img; ?>.png" type="image/png">
-                    <img src="build/img/<?php echo $img; ?>.png" alt="Websites Básicos">
-                </picture>
-				<h2>
-					<?php
-						if($_GET['id'] == '3' || $_GET['id'] == '8') {
-							echo 'Llámanos';
-							
-							}else{
-							echo 'Envíanos un WhatsApp';
-						}  
-				?>
-				</h2>
-		</a>
+            <picture>
+                <source srcset="build/img/<?php echo $img; ?>.webp" type="image/webp">
+                <source srcset="build/img/<?php echo $img; ?>.png" type="image/png">
+                <img src="build/img/<?php echo $img; ?>.png" alt="Websites Básicos">
+            </picture>
+            <h2>
+                <?php
+                if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                    echo 'Llámanos';
+                } else {
+                    echo 'Envíanos un WhatsApp';
+                }
+                ?>
+            </h2>
+        </a>
 
     </div><!-- .section -->
 
     <!-- Websites Premium -->
-    <div class="section">
+    <div class="section" id="website-premium">
         <div class="title-container">
             <h3>Website Premium</h3>
         </div>
@@ -604,7 +645,7 @@
     </div><!-- .section -->
 
     <!-- Tienda en linea -->
-    <div class="section">
+    <div class="section" id="tienda-linea">
         <div class="title-container">
             <h3>Tienda en linea</h3>
         </div>
@@ -738,12 +779,11 @@
 
             <a class="boton-verde" href="
                 <?php
-                    if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                        echo 'tel:' . $phone;
-                        
-                        }else{
-                        echo 'https://wa.me/' . $phone;
-                    }  
+                if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                    echo 'tel:' . $phone;
+                } else {
+                    echo 'https://wa.me/' . $phone;
+                }
                 ?>
                 " target="_blank">
                 <picture>
@@ -753,12 +793,11 @@
                 </picture>
                 <h2>
                     <?php
-                        if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                            echo 'Llámanos';
-                            
-                            }else{
-                            echo 'Envíanos un WhatsApp';
-                        }  
+                    if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                        echo 'Llámanos';
+                    } else {
+                        echo 'Envíanos un WhatsApp';
+                    }
                     ?>
                 </h2>
             </a>
@@ -766,7 +805,7 @@
         </div><!-- .content -->
     </div><!-- .section -->
 
-    <div class="section">
+    <div class="section" id="facebook">
         <div class="title-container">
             <p>Redes sociales</p>
             <h3>Facebook</h3>
@@ -886,7 +925,7 @@
         </div><!-- .content -->
     </div><!-- .section -->
 
-    <div class="section">
+    <div class="section" id="instagram">
         <div class="title-container">
             <p>Redes sociales</p>
             <h3>Instagram</h3>
@@ -918,7 +957,7 @@
             </div><!-- .row -->
             <div class="row flex-row">
                 <div class="medios">
-        
+
                     <picture>
                         <source srcset="build/img/insta/phone_insta.webp" type="image/webp">
                         <source srcset="build/img/insta/phone_insta.png" type="image/png">
@@ -1007,12 +1046,11 @@
 
             <a class="boton-verde" href="
                 <?php
-                    if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                        echo 'tel:' . $phone;
-                        
-                        }else{
-                        echo 'https://wa.me/' . $phone;
-                    }  
+                if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                    echo 'tel:' . $phone;
+                } else {
+                    echo 'https://wa.me/' . $phone;
+                }
                 ?>
                 " target="_blank">
                 <picture>
@@ -1022,12 +1060,11 @@
                 </picture>
                 <h2>
                     <?php
-                        if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                            echo 'Llámanos';
-                            
-                            }else{
-                            echo 'Envíanos un WhatsApp';
-                        }  
+                    if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                        echo 'Llámanos';
+                    } else {
+                        echo 'Envíanos un WhatsApp';
+                    }
                     ?>
                 </h2>
             </a>
@@ -1035,7 +1072,7 @@
         </div><!-- .content -->
     </div><!-- .section -->
 
-    <div class="section">
+    <div class="section" id="codigo-qr">
         <div class="title-container">
             <h3>Codigo QR</h3>
         </div>
@@ -1093,7 +1130,7 @@
 
     </div><!-- .section -->
 
-    <div class="section">
+    <div class="section" id="gmb">
         <div class="title-container">
             <h3>Google My Business</h3>
         </div>
@@ -1177,12 +1214,11 @@
 
             <a class="boton-verde" href="
                 <?php
-                    if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                        echo 'tel:' . $phone;
-                        
-                        }else{
-                        echo 'https://wa.me/' . $phone;
-                    }  
+                if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                    echo 'tel:' . $phone;
+                } else {
+                    echo 'https://wa.me/' . $phone;
+                }
                 ?>
                 " target="_blank">
                 <picture>
@@ -1192,12 +1228,11 @@
                 </picture>
                 <h2>
                     <?php
-                        if($_GET['id'] == '3' || $_GET['id'] == '8') {
-                            echo 'Llámanos';
-                            
-                            }else{
-                            echo 'Envíanos un WhatsApp';
-                        }  
+                    if ($_GET['id'] == '3' || $_GET['id'] == '8') {
+                        echo 'Llámanos';
+                    } else {
+                        echo 'Envíanos un WhatsApp';
+                    }
                     ?>
                 </h2>
             </a>
